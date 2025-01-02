@@ -45,6 +45,9 @@ ol {
 button {
   cursor: pointer;
 }
+img {
+  display: block;
+}
 /* #region heder */
 .header-page {
 }
@@ -174,6 +177,7 @@ button {
 }
 .benefits-list-item {
   width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 /* #endregion benefits */
 
