@@ -148,6 +148,8 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+}
+.hero-btn .container {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -184,7 +186,6 @@ img {
 }
 .benefits-list {
   display: flex;
-  align-items: center;
   gap: 24px;
 }
 .benefits-list-item {
