@@ -122,7 +122,8 @@ img {
 /* #region hero */
 .hero {
   background-color: #2e2f42;
-  padding-bottom: 120px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero .container {
   padding: top 188px;
@@ -138,7 +139,7 @@ img {
   text-align: center;
   color: #fff;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
 }
 .hero-btn {
   font-weight: 500;
@@ -147,6 +148,13 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
