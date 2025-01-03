@@ -212,6 +212,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .name {
   font-weight: 500;
@@ -228,6 +229,12 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.position {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 /* #endregion our team */
 
